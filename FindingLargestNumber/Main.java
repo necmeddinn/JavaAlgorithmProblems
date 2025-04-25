@@ -1,7 +1,7 @@
 //Soru: Kullanıcıdan alınan 5 sayıyı diziye alarak, en büyük sayıyı bulan Java programı yaz.
 //Örnek:
 //Girdi: 3 9 2 15 6
-//Çıktı: 15
+//Çıktı: 15.
 
 public class Main {
     public static void main(String[] args) {
