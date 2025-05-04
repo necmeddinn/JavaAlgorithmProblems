@@ -1,3 +1,5 @@
+// Dizideki Tekrar Eden Sayıları Bul
+
 public class RepeatedNumbersWithLoops {
     public static void main(String[] args) {
         int[] numbers = {2,3,7,2,4,3,5,2};
