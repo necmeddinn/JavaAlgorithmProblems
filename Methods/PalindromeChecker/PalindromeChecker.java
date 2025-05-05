@@ -13,6 +13,11 @@ public class PalindromeChecker {
         System.out.print("Is a palindrome? " + isPalindrome);
     }
 
+    // 🔧 Mantık:
+    //	1.	text’i ters çevir
+    //	2.	Küçük/büyük farkını yok et → toLowerCase()
+    //	3.	İki string eşit mi? Karşılaştır ve sonucu döndür
+
     static boolean isPalindrome(String text) {
         text = text.toLowerCase().replace(" ", "");
         String reversedText = "";
