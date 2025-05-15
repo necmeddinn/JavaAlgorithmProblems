@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,10 +16,13 @@ public class Main {
         names.set(3, "Sıdıka");
 
         System.out.println(names + "\n");
+        Collections.sort(names);
         System.out.println(names.get(3) + "\n");
         for (String name: names) {
             System.out.println(name);
         }
         System.out.println(names.size());
+        names.remove(2);
+        System.out.println(names);
     }
 }
